@@ -2,6 +2,9 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
 }
 
 .cell {
@@ -17,6 +20,15 @@ body {
 #gameContainer {
     font-family: "Permanent Marker", cursive;
     text-align: center;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    margin-top: 100px;
+    padding: 20px;
 }
 
 #cellContainer {
@@ -24,4 +36,11 @@ body {
     grid-template-columns: repeat(3, auto);
     width: 225px;
     margin: auto;
+}
+
+button {
+    background-color: gray;
+    padding: 15px;
+    border-radius: 15px 10px 15px 10px;
+    color: white;
 }
